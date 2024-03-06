@@ -2,15 +2,14 @@ import { component$, useSignal } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 
 export const MobileNav = component$(() => {
-    const headerNavLinks = [
-    
-        { href: "/", title: "About" },
-        { href: "/", title: "Services" },
-        { href: "/", title: "Case Studies" },
-        { href: "/", title: "Growth Matrix" },
-        { href: "/", title: "Resources" },
-        { href: "/", title: "Careers" },
-      ];
+  const headerNavLinks = [
+    { href: "/", title: "About" },
+    { href: "/", title: "Services" },
+    { href: "/", title: "Case Studies" },
+    { href: "/", title: "Growth Matrix" },
+    { href: "/", title: "Resources" },
+    { href: "/", title: "Careers" },
+  ];
   const toggleState = useSignal(false);
 
   return (
@@ -63,9 +62,9 @@ export const MobileNav = component$(() => {
             </svg>
           </button>
         </div>
-        <nav class="fixed mt-8 h-full">
+        <nav class="fixed mt-2 h-full">
           {headerNavLinks.map((link) => (
-            <div key={link.title} class="px-12 py-4">
+            <div key={link.title} class="px-12 py-3">
               <Link
                 href={link.href}
                 class="text-2xl font-bold tracking-widest text-white "
@@ -77,12 +76,13 @@ export const MobileNav = component$(() => {
                 }}
               >
                 {link.title}
-                  </Link>
-                  
-              </div>
-              
+              </Link>
+            </div>
           ))}
-              
+          <button class="px-12 py-3  text-2xl font-bold  text-orange">
+            {" "}
+            Get in Touch
+          </button>
         </nav>
       </div>
     </>
