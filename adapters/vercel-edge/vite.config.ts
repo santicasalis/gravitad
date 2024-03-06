@@ -7,7 +7,8 @@ export default extendConfig(baseConfig, () => {
     build: {
       ssr: false,
       rollupOptions: {
-        input: ["src/entry.vercel-edge.tsx", "@qwik-city-plan"],
+        external: ["async_hooks"], 
+        input: ["src/entry.vercel-edge.tsx"],
       },
       outDir: ".vercel/output/functions/_qwik-city.func",
     },
