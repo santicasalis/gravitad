@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 export const WhyChooseUs = component$(() => {
   return (
     <>
-      <div class="my-10">
+      <div class="mt-10">
         <div class="flex flex-col text-center font-barlow">
           <h3 class="leading-14 text-center text-4xl font-semibold tracking-normal">
             Why Choose NeuroCreativeLab?

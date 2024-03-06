@@ -14,6 +14,7 @@ export default {
         violetDark: "#26133D",
         borderColor: "#262626",
         bgColor: "#1A1A1A",
+        violetLigth: "#C5B2E5",
       },
       fontFamily: {
         // Agrega tus fuentes personalizadas aquí
