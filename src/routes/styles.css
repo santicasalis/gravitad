@@ -20,8 +20,8 @@ html {
 }
 
 body {
-   background: #1A1A1A;
-  
+  background: #1a1a1a;
+
   color: white;
   overflow-x: hidden;
 }
@@ -31,7 +31,6 @@ h1,
 h2,
 h3 {
   color: white;
-  margin: 0;
 }
 
 h1 {
@@ -39,12 +38,10 @@ h1 {
   text-align: center;
 }
 
-
 h2 {
   font-weight: 400;
   font-size: 2.4rem;
 }
-
 
 h3 {
   font-size: 2rem;
@@ -65,9 +62,7 @@ h3 {
 /* TAGS ----------------------------------------- */
 a {
   text-decoration: none;
-  
 }
-
 
 ul {
   margin: 0;
@@ -75,7 +70,6 @@ ul {
 }
 
 /* CONTAINER ------------------------------------ */
-
 
 @media screen and (min-width: 768px) {
   .container {
@@ -92,7 +86,6 @@ ul {
 }
 
 /* BUTTONS -------------------------------------- */
-
 
 @media screen and (min-width: 768px) {
   a.button,
@@ -143,5 +136,3 @@ ul {
 }
 
 /* used icon pack: https://www.svgrepo.com/collection/phosphor-thin-icons */
-
-
