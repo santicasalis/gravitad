@@ -15,15 +15,15 @@ export const WithUs = component$(() => {
           class="my-5"
         />
 
-        <h3
-          style="font-family: Barlow; font-size: 45px; font-weight: 600; line-height: 46px; letter-spacing: 0em; text-align: center;"
-          class="my-5 text-center "
+        <div
+          style="font-family: Barlow; font-size: 45px; font-weight: 500; line-height: 46px; letter-spacing: 0em; text-align: center;"
+          class="mx-10 my-7  text-center"
         >
           The Only Growth Partner That Delivers Exponential Growth without
           Long-Term Contracts and Excessive Retainers.
-        </h3>
+        </div>
         <div>
-          <button class="rounded-lg  bg-orange p-3 px-7    font-barlow text-orangeFont ">
+          <button class="rounded-lg  bg-orange p-3 px-7    font-barlow font-semibold  text-orangeFont">
             {" "}
             Partner with Us{" "}
           </button>
