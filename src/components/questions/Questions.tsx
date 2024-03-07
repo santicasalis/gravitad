@@ -35,6 +35,77 @@ export const Questions = component$(() => {
               </div>
             </div>
           </div>
+
+          <div class="flex max-w-[600px] flex-col p-4">
+            <div class="flex">
+              <div
+                class="mr-2 p-3 text-navFont "
+                style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
+              >
+                {" "}
+                02
+              </div>
+
+              <div class="flex min-w-[400px] items-center justify-between">
+                <h6 class="text-navFont">Which services do you offer?</h6>
+                <div>✔</div>
+              </div>
+            </div>
+          </div>
+          <div class="flex max-w-[600px] flex-col p-4">
+            <div class="flex">
+              <div
+                class="mr-2 p-3 text-navFont "
+                style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
+              >
+                {" "}
+                03
+              </div>
+
+              <div class="flex min-w-[400px] items-center justify-between">
+                <h6 class="text-navFont">
+                  Who can benefit from your services?
+                </h6>
+                <div>✔</div>
+              </div>
+            </div>
+          </div>
+          <div class="flex max-w-[600px] flex-col p-4 ">
+            <div class="flex">
+              <div
+                class="mr-2 p-3 text-navFont "
+                style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
+              >
+                {" "}
+                04
+              </div>
+
+              <div class="flex min-w-[400px] items-center justify-between ">
+                <h6 class="text-navFont">
+                  How does your agency stand from others?
+                </h6>
+                <div>✔</div>
+              </div>
+            </div>
+          </div>
+          <div class="flex max-w-[600px] flex-col p-4">
+            <div class="flex">
+              <div
+                class="mr-2 p-3 text-navFont "
+                style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
+              >
+                {" "}
+                05
+              </div>
+
+              <div class="flex min-w-[400px] items-center justify-between">
+                <h6 class="text-navFont">
+                  Do you specialize in any industries?
+                </h6>
+                <div>✔</div>
+              </div>
+            </div>
+          </div>
           <div class="flex max-w-[600px] flex-col p-4">
             <div class="flex">
               <div
@@ -60,22 +131,6 @@ export const Questions = component$(() => {
                 style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
               >
                 {" "}
-                02
-              </div>
-
-              <div class="flex min-w-[400px] items-center justify-between">
-                <h6 class="text-navFont">Which services do you offer?</h6>
-                <div>✔</div>
-              </div>
-            </div>
-          </div>
-          <div class="flex max-w-[600px] flex-col p-4">
-            <div class="flex">
-              <div
-                class="mr-2 p-3 text-navFont "
-                style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
-              >
-                {" "}
                 07
               </div>
 
@@ -85,24 +140,7 @@ export const Questions = component$(() => {
               </div>
             </div>
           </div>
-          <div class="flex max-w-[600px] flex-col p-4">
-            <div class="flex">
-              <div
-                class="mr-2 p-3 text-navFont "
-                style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
-              >
-                {" "}
-                03
-              </div>
 
-              <div class="flex min-w-[400px] items-center justify-between">
-                <h6 class="text-navFont">
-                  Who can benefit from your services?
-                </h6>
-                <div>✔</div>
-              </div>
-            </div>
-          </div>
           <div class="flex max-w-[600px] flex-col p-4">
             <div class="flex">
               <div
@@ -119,24 +157,7 @@ export const Questions = component$(() => {
               </div>
             </div>
           </div>
-          <div class="flex max-w-[600px] flex-col p-4">
-            <div class="flex">
-              <div
-                class="mr-2 p-3 text-navFont "
-                style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
-              >
-                {" "}
-                04
-              </div>
 
-              <div class="flex min-w-[400px] items-center justify-between">
-                <h6 class="text-navFont">
-                  How does your agency stand out from others?
-                </h6>
-                <div>✔</div>
-              </div>
-            </div>
-          </div>
           <div class="flex max-w-[600px] flex-col p-4">
             <div class="flex">
               <div
@@ -153,24 +174,7 @@ export const Questions = component$(() => {
               </div>
             </div>
           </div>
-          <div class="flex max-w-[600px] flex-col p-4">
-            <div class="flex">
-              <div
-                class="mr-2 p-3 text-navFont "
-                style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
-              >
-                {" "}
-                05
-              </div>
 
-              <div class="flex min-w-[400px] items-center justify-between">
-                <h6 class="text-navFont">
-                  Do you specialize in any industries?
-                </h6>
-                <div>✔</div>
-              </div>
-            </div>
-          </div>
           <div class="flex max-w-[600px] flex-col p-4 text-navFont">
             <div class="flex text-navFont">
               <div
