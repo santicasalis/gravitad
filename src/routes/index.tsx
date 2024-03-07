@@ -7,6 +7,7 @@ import { Questions } from "~/components/questions/Questions";
 import { SeeHow } from "~/components/seeHow/SeeHow";
 import { Testimonials } from "~/components/testimonials/Testimonials";
 import { WhyChooseUs } from "~/components/whyChooseUs/WhyChooseUs";
+import { WithUs } from "~/components/withUs/WithUs";
 
 export default component$(() => {
   return (
@@ -20,6 +21,7 @@ export default component$(() => {
         <SeeHow />
         <Questions />
         <OficialPartner />
+        <WithUs />
       </div>
     </>
   );
