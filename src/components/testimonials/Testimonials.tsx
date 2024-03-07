@@ -4,22 +4,61 @@ export const Testimonials = component$(() => {
   return (
     <>
       <div
-        class="text-violetLigth p-10"
-        style="background: linear-gradient(180deg, #29163E 70%, #1A1A1A 100%);"
+        class="text-violetLigth "
+        style="background: linear-gradient(180deg, #29163E 40%, #1A1A1A 80%);"
       >
-        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+        <div class="grid grid-cols-1 gap-8 p-20 sm:grid-cols-2">
           <div class="flex flex-col">
             <p class="text-navFont">What our customers say about us</p>
             <h3 class="text-violetLigth">
               A Partnership Built on Trust & Results
             </h3>
-            <p>
+            <p class="text-navFont">
               Our partners stay on average 2+ years with us. No one can match
               our success rate
             </p>
           </div>
+          <div style="position: relative;" class="hidden sm:block md:block">
+            <img
+              width="60"
+              height="75"
+              src="https://s3-alpha-sig.figma.com/img/5a80/c0e8/4e27e18416ee7763fb2930984b2b76c3?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O9Jv5jvYyivXiWjs2TwxgMTEKeTVO2jNE0Xr7uZ7~uka6ixSDW6DtApbWI2gHQlD0Z9vdTrsseqG~WndeFWXahNHn2--9ufLjiBIC1lSMMdxhtEaOnLsKFz-CWI9fzYGLDJeu2t7SOJ9XAfCT01FeIIYoMc2Xypg5Pq1wb9lUfbWU3RhDO6IMj0fMlzqLI654ztQAj2Fre0gBo~7f9OH~dA2sc68uOeUhCnzq71dMY8nYGW~jNDxeF0X0a~ufoeuFLttxKJEnyE4JTxkXUAiiPxeLW5lXJzrS3zOq3Q-7LfIGXRKxjSX~FMW9jP~60wU6a4RqHd6OkWlfqnuoQp2Lw__"
+              alt=" Google"
+              style="position: absolute; top: 180px; right:230px "
+            />
 
-          <img src="" alt="" srcset="" />
+            <img
+              width="60"
+              height="60"
+              src="https://s3-alpha-sig.figma.com/img/dde3/7f47/ed629573cc2fd04307504c5c0c80e540?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qxClrQd6~H8X78W2mz9khCC-q9FS8SY~Agl02GsUBUTulndtboTQt~W9F6lK-g2OYGgN4GEgqAgAzaZHlTkEfHBgbrA7~eLNqT4lnN-2QPm56G2RQaujeJsJSCMCVQp3i7cMKpv6cCpI6d24o6mOMigGR7CN2PFJy1510IjWC5xfJQdub-38qqENTK9GgXgC45f25W7i1NTxa9-A9eohM6GDPMnlVeG-WetfhMAEnP1UmD4dfQEiO5GWCS-5POdZpi652KOXURLkAWROWR9OSLEU1frTbeJ2e2oVV13RUNpmb3teBPkHp1PbdHE14LqSVj2mpy5dyAVuKL4nBoK24Q__"
+              alt="Shopify"
+              style="position: absolute; top: 130px; right:350px "
+            />
+
+            <img
+              width="80"
+              height="78"
+              src="https://s3-alpha-sig.figma.com/img/83e0/d75f/37a91ec16bafacdb989a8f8bc8d02a1c?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b-lgqRuNdAwhQfzWVgMPzXIe6hmRP9Vw8sc907gDZb5U787wsVu1iNb57XK24J5s7UJHtspHXNuaDA4pS-8Shs5mb~ZXg~aurGF5o2a6pW9g~iBGj4GdWbwW3jdK3ktrZT~29C7LXmpLppZB5dW-fAlIik21av4lS0T~IOOgnu3qn430huM5Cpz8WERPCejCnMDqNjh0cO2CZ8jbsm17NyGsPT7igFBghtjr4vwMdgn9U0P1yha81whYTdhjwOEt6ssg7qAi72xJ0rDawW0VOOU6V4R-WlHJELawzlkMqhFCsYwbYHkdDsbisDW1nd1pzUMcdPoPaR~rlnithRviEA__"
+              alt="Adobe"
+              style="position: absolute; top: 20px; right:250px "
+            />
+
+            <img
+              width="70"
+              height="46"
+              src="https://s3-alpha-sig.figma.com/img/d3d6/1828/72a71e3d15dd09dbbb823ae2bb0564da?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FMs2UVn4iNJVseyEjsN3peh-avv0LI5jUMfgQw-tmMRXpHWsqBt1kCj~2dg9ZGSvw0VvDNxnG0Nele4yZAB2tBdVJSS6Arvsgx7COZ2kgf1LG~WR33Ahq1G2XI0K8747LyURhyrMJVXkhOtVasPgG1BgKNaSc-GQVMWL3wgNvzL~ymugA7zQh-WGedX57w-UutygKqvhtIdY8iQ9zJogYNQewGF8SfShuCItPzRsfxP5Ls99YAxp0n6b8wOdPUz-WMHrV~SY3EmhwfAvM-ukErG41qn0wIy~5KHnvENV25RG5ZgySkd1N9Jzu1vf2krdg-QN5Ar2xBb7TukWrjk0yA__"
+              alt="Meta"
+              style="position: absolute; top: 10px; right:50px "
+            />
+
+            <img
+              width="180"
+              height="227"
+              src="https://s3-alpha-sig.figma.com/img/ea9c/4c0b/dfbb76c302f641f0f6de01b80d0aa2cb?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P01fBV8zV~4hGNLmDnrE-7ti7Ben3zo7k4Wub29pvcpnLoP0uWszE7z9ep3fFOFBGaNPuoYAaXgvthupin~Ynq7aY5dFYgIW6l7Fy2cBIipJKP3FwwZHVTZ4QOXeCWevoOoHL6nJfxQZpTEVVogcpqpaQ072-sSnhqLrtipGRoyuDKUXnrsOdOIMBHocFpxnNIFNzUb-jXbAqm~c3HLA0UEJd4LODB8hluvpjqfflwTptaaTK87TSFy9nCa3QrdRji0wFtbJzSFCJixhPAmOLyBMnWLl-sTI3zfUzhzc~uHA3-RI0iaNlweGEUh6VVk7TKBmFkYgdeN2TVHhGgx6Wg__"
+              alt="Rocket"
+              style="position: absolute; top: 20px; right:60px "
+            />
+          </div>
         </div>
 
         <div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2">

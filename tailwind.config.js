@@ -15,6 +15,10 @@ export default {
         borderColor: "#262626",
         bgColor: "#1A1A1A",
         violetLigth: "#C5B2E5",
+        cardsP: "#DCDDE1",
+        button: "#322F38",
+        bgTable: "#1A1A1A",
+        bgTableDark: "#121212",
       },
       fontFamily: {
         // Agrega tus fuentes personalizadas aquí
