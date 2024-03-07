@@ -44,18 +44,24 @@ export default component$(() => {
               src="https://res.cloudinary.com/ddpmly8bf/image/upload/t_Grayscale/v1709820475/facebook_5968764_w829jt.png"
               alt=""
               class="m-2 "
+              width="24"
+              height="24"
             />
             <img
               src="https://res.cloudinary.com/ddpmly8bf/image/upload/t_Grayscale/v1709820493/twitter_739257_uqoims.png"
               alt=""
               class="m-2"
               style="filter: grayscale(100%) sepia(100%) hue-rotate(240deg);"
+              width="24"
+              height="24"
             />
             <img
               src="https://res.cloudinary.com/ddpmly8bf/image/upload/t_Grayscale/v1709820483/linkedin_1384046_cidco8.png"
               alt=""
               class="m-2"
               style="filter: grayscale(100%) sepia(100%) hue-rotate(240deg);"
+              width="24"
+              height="24"
             />
           </div>
         </div>
