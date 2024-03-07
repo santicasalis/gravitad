@@ -7,7 +7,7 @@ export const Questions = component$(() => {
         style="background: linear-gradient(180deg, #1A1A1A 26.5%, #29163E 74%); "
         class="flex flex-col items-center justify-center"
       >
-        <h3 class="mt-8" style="font-weight: 800">
+        <h3 class="mx-8 mt-8 text-center" style="font-weight: 800">
           Frequently Asked Questions
         </h3>
         <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">

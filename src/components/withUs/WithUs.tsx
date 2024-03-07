@@ -5,7 +5,7 @@ export const WithUs = component$(() => {
     <>
       <div
         style="background: linear-gradient(180deg, #29163E 23%, #1A1A1A 75.5%); "
-        class="mx-20 my-5 flex flex-col items-center justify-center"
+        class=" mx-5 my-5 flex flex-col items-center justify-center sm:mx-20"
       >
         <img
           width="233"
@@ -16,8 +16,8 @@ export const WithUs = component$(() => {
         />
 
         <div
-          style="font-family: Barlow; font-size: 45px; font-weight: 500; line-height: 46px; letter-spacing: 0em; text-align: center;"
-          class="mx-10 my-7  text-center"
+          style="font-family: Barlow;  font-weight: 500; line-height: 46px; letter-spacing: 0em; text-align: center;"
+          class="mx-3 my-7 text-center  text-3xl sm:text-5xl"
         >
           The Only Growth Partner That Delivers Exponential Growth without
           Long-Term Contracts and Excessive Retainers.

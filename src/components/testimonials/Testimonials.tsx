@@ -7,13 +7,13 @@ export const Testimonials = component$(() => {
         class="text-violetLigth "
         style="background: linear-gradient(180deg, #29163E 40%, #1A1A1A 80%);"
       >
-        <div class="grid grid-cols-1 gap-8 p-20 sm:grid-cols-2">
+        <div class="grid grid-cols-1 gap-8  p-12 py-1  sm:grid-cols-2 sm:p-20">
           <div class="flex flex-col">
-            <p class="text-navFont">What our customers say about us</p>
+            <p class="my-3 text-navFont">What our customers say about us</p>
             <h3 class="text-violetLigth">
               A Partnership Built on Trust & Results
             </h3>
-            <p class="text-navFont">
+            <p class="my-3 text-navFont">
               Our partners stay on average 2+ years with us. No one can match
               our success rate
             </p>
@@ -61,8 +61,8 @@ export const Testimonials = component$(() => {
           </div>
         </div>
 
-        <div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2">
-          <div class="border-borderColor flex flex-col border  p-8">
+        <div class="mt-1 grid grid-cols-1 gap-8 sm:mt-2 sm:grid-cols-2">
+          <div class="border-borderColor flex flex-col border  p-8 py-3">
             <h4 class="text-28 mb-2 mt-5 font-medium leading-8">
               SquareUp has been Instrumental in Transforming our Online
               Presence.{" "}
@@ -93,7 +93,7 @@ export const Testimonials = component$(() => {
               </button>
             </div>
           </div>
-          <div class="border-borderColor flex flex-col border  p-8">
+          <div class="border-borderColor flex flex-col border  p-8 py-3">
             <h4 class="text-28 mt-5 font-medium leading-8">
               Working with SquareUp was a breeze.
               <br />
@@ -125,7 +125,7 @@ export const Testimonials = component$(() => {
               </button>
             </div>
           </div>
-          <div class="border-borderColor flex flex-col border  p-8">
+          <div class="border-borderColor flex flex-col border  p-8 py-3">
             <h4 class="text-28 mb-2 mt-5 font-medium leading-8">
               SquareUp developed a comprehensive booking and reservation system
               for our event management company
@@ -157,7 +157,7 @@ export const Testimonials = component$(() => {
               </button>
             </div>
           </div>
-          <div class="border-borderColor flex flex-col border  p-8">
+          <div class="border-borderColor flex flex-col border  p-8 py-3">
             <h4 class="text-28 mb-2 mt-5 font-medium leading-8">
               ProTech Solutions turned to SquareUp to automate our workflow
             </h4>

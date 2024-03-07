@@ -18,7 +18,7 @@ export const WhyChooseUs = component$(() => {
           class="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2"
           style="background: linear-gradient(180deg, #1A1A1A 23%, #29163E 75%);"
         >
-          <div class="border-borderColor flex flex-col border p-12">
+          <div class="border-borderColor flex flex-col border p-6 sm:p-12">
             <div class=" flex items-center">
               {" "}
               <img
@@ -38,7 +38,7 @@ export const WhyChooseUs = component$(() => {
             </div>
           </div>
 
-          <div class="border-borderColor flex flex-col border p-12">
+          <div class="border-borderColor flex flex-col border p-6 sm:p-12">
             <div class="flex items-center">
               {" "}
               <img
@@ -57,7 +57,7 @@ export const WhyChooseUs = component$(() => {
             </div>
           </div>
 
-          <div class="border-borderColor flex flex-col border p-12">
+          <div class="border-borderColor flex flex-col border p-6 sm:p-12">
             <div class="flex items-center">
               {" "}
               <img
@@ -77,7 +77,7 @@ export const WhyChooseUs = component$(() => {
             </div>
           </div>
 
-          <div class="border-borderColor flex flex-col border p-12">
+          <div class="border-borderColor flex flex-col border p-6 sm:p-12">
             <div class="flex items-center">
               {" "}
               <img

@@ -7,10 +7,10 @@ export const OurServices = component$(() => {
         class="text-violetLigth "
         style="background: linear-gradient(180deg, #1A1A1A 30%, #29163E 80%);"
       >
-        <div class="mx-5 grid grid-cols-1 gap-8 p-20 sm:grid-cols-2">
+        <div class="mx-1 grid grid-cols-1 gap-8 p-10 sm:mx-5  sm:grid-cols-2 sm:p-20">
           <div class="flex flex-col">
             <p class="text-navFont">Powered by the Growth Matrix™</p>
-            <h3 class="text-violetLigth">Our Growth Services</h3>
+            <h3 class="text-violetLigth mb-3">Our Growth Services</h3>
             <p class="text-navFont">
               Search, Social, Email, Landing Page and Creative all under one
               roof, enhanced with our neuroscience backed Growth Matrix™
@@ -59,7 +59,7 @@ export const OurServices = component$(() => {
           </div>
         </div>
 
-        <div class="mx-10 mt-10 grid grid-cols-1 gap-8 sm:grid-cols-3">
+        <div class="mx-10 mt-2 grid grid-cols-1 gap-8 sm:mt-10 sm:grid-cols-3">
           <div class="border-borderColor items-left mx-3 flex flex-col  justify-center rounded-lg border px-5 py-10 ">
             <h3 class="text-violetLigth my-3 text-3xl font-bold">
               Meta, Social Ads

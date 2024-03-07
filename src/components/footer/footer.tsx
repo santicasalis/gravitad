@@ -15,7 +15,7 @@ export default component$(() => {
   return (
     <footer>
       <WithUs />
-      <div class="mx-10 flex items-center justify-between">
+      <div class="mx-10  flex flex-col items-center justify-between sm:flex-row  md:flex-row lg:flex-row">
         <img
           width="240"
           height="60"
@@ -24,50 +24,50 @@ export default component$(() => {
           class="my-5"
         />
         <div class="flex items-center ">
-          <div class="flex items-center space-x-4 leading-5  sm:space-x-6">
+          <div class="mx-2 flex flex-col items-center space-x-4 leading-5 sm:flex-row  sm:space-x-6 md:flex-row lg:flex-row">
             {headerNavLinks
               // .filter((link) => link.href !== "/")
               .map((link) => (
                 <Link
                   key={link.title}
                   href={link.href}
-                  class="hidden rounded-md   p-2   font-barlow text-sm  text-navFont  sm:block "
+                  class="rounded-md   p-2   font-barlow text-sm  text-navFont   "
                 >
                   {link.title}
                 </Link>
               ))}
           </div>
 
-          <div class="border-borderColor  flex items-center border p-3 ">
+          <div class="border-borderColor  flex flex-col items-center  border p-3 sm:flex-row ">
             <div class="text-sm text-navFont">Free Growth Strategies:</div>
             <img
               src="https://res.cloudinary.com/ddpmly8bf/image/upload/t_Grayscale/v1709820475/facebook_5968764_w829jt.png"
               alt=""
-              class="mx-2"
+              class="m-2 "
             />
             <img
               src="https://res.cloudinary.com/ddpmly8bf/image/upload/t_Grayscale/v1709820493/twitter_739257_uqoims.png"
               alt=""
-              class="mx-2"
+              class="m-2"
               style="filter: grayscale(100%) sepia(100%) hue-rotate(240deg);"
             />
             <img
               src="https://res.cloudinary.com/ddpmly8bf/image/upload/t_Grayscale/v1709820483/linkedin_1384046_cidco8.png"
               alt=""
-              class="mx-2"
+              class="m-2"
               style="filter: grayscale(100%) sepia(100%) hue-rotate(240deg);"
             />
           </div>
         </div>
       </div>
       <hr style="border-color: #262626;" />
-      <div class="mx-10  my-5 flex justify-between">
-        <div class="flex text-sm text-navFont">
-          <div class="mx-3 ">hello@neurocreativelab.com</div>
-          <div class="mx-3 ">+91 91813 23 2309</div>
-          <div class="mx-3 ">Germany</div>
+      <div class="mx-2  my-5 flex flex-col items-center justify-between sm:mx-10  sm:flex-row ">
+        <div class="flex flex-col text-sm  text-navFont sm:flex-row">
+          <div class="mx-3 mt-2">hello@neurocreativelab.com</div>
+          <div class="mx-3 mt-2">+91 91813 23 2309</div>
+          <div class="mx-3 mt-2">Germany</div>
         </div>
-        <div class="text-grey text-sm">
+        <div class="text-grey mt-2 text-sm">
           © 2024 Neurocreativelab. All rights reserved.
         </div>
       </div>

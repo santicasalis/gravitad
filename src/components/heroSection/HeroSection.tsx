@@ -17,23 +17,23 @@ export const HeroSection = component$(() => {
           class="mx-20 flex h-80   flex-col items-center justify-start bg-cover bg-center"
           style="background-image: url('https://res.cloudinary.com/ddpmly8bf/image/upload/v1709734152/Abstract_Design_lswpty.png');"
         >
-          <div class="bg-violet my-6 flex p-7 ">
-            <div class="text-grey mx-1">For</div>
-            <div class="bg-violetDark mx-1  ">eCommerce Brands</div>
-            <div class="text-grey mx-1">and</div>
-            <div class="bg-violetDark mx-1">B2B SaaS</div>
-            <div class="text-grey mx-1">doing</div>
-            <div class="bg-violetDark mx-1">$1MM+</div>
-            <div class="text-grey mx-1">in</div>
-            <div class="bg-violetDark mx-1">Annual Recurring Revenue</div>
+          <div class="bg-violet my-6 flex flex-col p-7 sm:flex-row">
+            <div class="text-grey m-1">For</div>
+            <div class="bg-violetDark m-1  ">eCommerce Brands</div>
+            <div class="text-grey m-1">and</div>
+            <div class="bg-violetDark m-1">B2B SaaS</div>
+            <div class="text-grey m-1">doing</div>
+            <div class="bg-violetDark m-1">$1MM+</div>
+            <div class="text-grey m-1">in</div>
+            <div class="bg-violetDark m-1">Annual Recurring Revenue</div>
           </div>
 
-          <div class="flex">
-            <button class="mr-2  rounded-lg  bg-gray-800 p-3    px-5 font-barlow text-white">
+          <div class="flex flex-col  justify-center sm:flex-row">
+            <button class="my-2  mr-2  rounded-lg bg-gray-800    p-3 px-5 font-barlow text-white">
               {" "}
               Services
             </button>
-            <button class="rounded-lg  bg-orange p-3 px-7    font-barlow text-orangeFont ">
+            <button class="my-2  rounded-lg bg-orange p-3    px-7 font-barlow text-orangeFont">
               {" "}
               Work with Us
             </button>
